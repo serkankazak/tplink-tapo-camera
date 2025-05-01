@@ -28,7 +28,7 @@ open terminal then copy followings and paste (right click then paste) and press 
 echo -e '\nrtsp://USERNAME:PASSWORD@IP:554/stream1\n'
 while read -r c; do
 	for i in $(seq 1 254); do
-		nc -z $c.$i 554 2>&1 | grep -oE 'open$' &
+		nc -z $c.$i 554 2>&1 | grep -oE '.*open$' &
 	done
 done < <(netstat -r | awk '{print $4}' | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | sort -u | grep -v '127.0.0') | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+'
 ```
