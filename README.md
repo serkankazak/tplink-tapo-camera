@@ -9,9 +9,9 @@ download exe from https://github.com/msys2/msys2-installer/releases
 
 install it and run msys2
 
-#### if you are on mac, open terminal
+#### if you are on mac
 
-copy followings and paste (right click then paste) and press enter and wait
+open terminal then copy followings and paste (right click then paste) and press enter and wait
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
