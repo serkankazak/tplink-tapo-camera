@@ -1,4 +1,4 @@
-## How to connect / watch tplink tapo camera on windows / mac ?
+## How to watch tplink tapo camera on windows / mac ?
 
 #### if you are on windows
 
