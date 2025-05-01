@@ -3,12 +3,13 @@
 ## How to connect / watch tplink tapo camera?
 
 ### if you are on windows
+
 download exe from https://github.com/msys2/msys2-installer/releases
 (click Assets and download something like 'msys2-x86_64-20250221.exe')
 
 install it and run msys2
 
-### if you are on mac open terminal app
+### if you are on mac, open terminal app
 
 ### then
 
