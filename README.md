@@ -2,12 +2,21 @@
 
 ## How to connect / watch tplink tapo camera on windows / mac ?
 
-### if you are on mac, open terminal app or if you are on windows
+### if you are on windows
 
 download exe from https://github.com/msys2/msys2-installer/releases
 (click Assets and download something like 'msys2-x86_64-20250221.exe')
 
 install it and run msys2
+
+### if you are on mac, open terminal
+
+copy followings and paste (right click then paste) and press enter and wait
+
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install telnet
+```
 
 ### then
 
