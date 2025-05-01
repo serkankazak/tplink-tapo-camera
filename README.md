@@ -23,4 +23,6 @@ done < <(netstat -r | awk '{print $4}' | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | sor
 
 with the found ip address press `ctrl + n` on VLC then type something like `rtsp://USERNAME:PASSWORD@IP:554/stream1` and press enter
 
+https://www.youtube.com/watch?v=OGy0t7DnPO8
+
 [![demo](http://img.youtube.com/vi/OGy0t7DnPO8/0.jpg)](http://www.youtube.com/watch?v=OGy0t7DnPO8 "demo")
