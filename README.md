@@ -2,14 +2,14 @@
 
 ## How to connect / watch tplink tapo camera on windows / mac ?
 
-### if you are on windows
+#### if you are on windows
 
 download exe from https://github.com/msys2/msys2-installer/releases
 (click Assets and download something like 'msys2-x86_64-20250221.exe')
 
 install it and run msys2
 
-### if you are on mac, open terminal
+#### if you are on mac, open terminal
 
 copy followings and paste (right click then paste) and press enter and wait
 
@@ -32,6 +32,6 @@ done < <(netstat -r | awk '{print $4}' | grep -oE '[0-9]+\.[0-9]+\.[0-9]+' | sor
 
 with the found ip address press `ctrl + n` on VLC then type something like `rtsp://USERNAME:PASSWORD@IP:554/stream1` and press enter
 
-https://www.youtube.com/watch?v=OGy0t7DnPO8
+https://www.youtube.com/watch?v=ymJwaGGB4I0
 
-[![demo](http://img.youtube.com/vi/OGy0t7DnPO8/0.jpg)](http://www.youtube.com/watch?v=OGy0t7DnPO8 "demo")
+[![demo](http://img.youtube.com/vi/ymJwaGGB4I0/0.jpg)](http://www.youtube.com/watch?v=ymJwaGGB4I0 "demo")
