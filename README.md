@@ -12,7 +12,7 @@ install it and run msys2
 open terminal then copy followings and paste (right click then paste) and press enter and wait
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew install telnet
 ```
 
