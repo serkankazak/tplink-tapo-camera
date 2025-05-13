@@ -1,5 +1,7 @@
 ## How to watch tplink tapo camera on windows / mac ?
 
+https://github.com/user-attachments/assets/a167eff1-e944-4e76-a234-813d3fa96a64
+
 #### if you are on windows
 
 download exe from https://github.com/msys2/msys2-installer/releases
